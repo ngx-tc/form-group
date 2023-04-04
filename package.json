@@ -1,18 +1,19 @@
 {
   "name": "@ngx-tc/form-group",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "author": "type0code",
   "license": "MIT",
-  "description": "Angular UI components library",
+  "description": "Angular UI library that simplifies grouping and displaying form elements.",
   "keywords": ["angular", "angular UI", "angular components", "ng", "ngx", "angular form", "angular control", "angular input", "angular form group"],
   "repository": "https://github.com/ngx-tc/form-group",
+  "homepage": "http://tc-library.type-code.pro/#/components/inputs",
   "config": {
     "access": "public"
   },
   "peerDependencies": {
     "@angular/common": "^15.1.5",
     "@angular/core": "^15.1.5",
-    "@ngx-tc/base": "^0.0.17"
+    "@ngx-tc/base": "^1.0.1"
   },
   "dependencies": {
     "tslib": "^2.5.0"
