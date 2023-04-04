@@ -1,8 +1,18 @@
 @import '@ngx-tc/base/src/assets/scss/base.scss';
 
 :host {
+  --tc-form-group-color: inherit;
+  --tc-form-group-fs: inherit;
+  --tc-form-group-ff: inherit;
+  --tc-form-group-fw: inherit;
+  --tc-form-group-lh: inherit;
   --tc-form-group-margin: 0 0 calc(var(--tc-base-module-rem) * 2);
 
+  color: var(--tc-form-group-color);
+  font-size: var(--tc-form-group-fs);
+  font-family: var(--tc-form-group-ff);
+  font-weight: var(--tc-form-group-fw);
   display: block;
+  line-height: var(--tc-form-group-lh);
   margin: var(--tc-form-group-margin);
 }
